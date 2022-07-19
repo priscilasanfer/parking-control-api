@@ -20,3 +20,8 @@ E por último, vamos atualizar as configurações do Spring Security, de acordo 
 - [CSRF Protection](https://docs.spring.io/spring-security/site/docs/5.0.x/reference/html/csrf.html#when-to-use-csrf-protection)
 - [Interceptor Postman](https://learning.postman.com/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor)
 - [UUID Generator](https://www.uuidgenerator.net/)
+
+## Dicas
+
+- Gerar um UUID direto no banco 
+```insert into tb_role values(gen_random_uuid(), 'ROLE_ADMIN)```
